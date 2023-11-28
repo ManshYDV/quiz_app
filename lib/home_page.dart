@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+  const HomePage(this.startQuiz, {super.key});
 
+  final void Function() startQuiz;
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -34,7 +35,10 @@ class HomePage extends StatelessWidget {
             height: 20,
           ),
           IconButton(
-            onPressed: () {},
+            // onPressed: (){
+            //   startQuiz();
+            // },
+            onPressed: startQuiz,
             style: IconButton.styleFrom(
               backgroundColor: const Color.fromARGB(140, 184, 187, 178),
             ),

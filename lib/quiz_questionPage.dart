@@ -10,6 +10,6 @@ class QuestionsPage extends StatefulWidget {
 class _QuestionsPageState extends State<QuestionsPage> {
   @override
   Widget build(BuildContext context) {
-    return const Text("Hello");
+    return const Center(child: const Text("Hello"));
   }
 }
