@@ -3,16 +3,16 @@ import 'package:quiz_app/models/quiz_questions.dart';
 
 const questions = [
   QuizQuestion(
-    'Which of the following option leads to the portability and security of Java? ',
+    '1. Which of the following option leads to the portability and security of Java? ',
     [
       'Bytecode is executed by JVM',
       'The applet makes the Java code secure and portable',
-      'Use of exception handling'
-          'Dynamic binding between objects'
+      'Use of exception handling',
+      'Dynamic binding between objects',
     ],
   ),
   QuizQuestion(
-    'Which of the following is not a Java features? ',
+    '2. Which of the following is not a Java features? ',
     [
       'Dynamic',
       'Architecture Neutral',
@@ -21,7 +21,7 @@ const questions = [
     ],
   ),
   QuizQuestion(
-    'Which of the following option leads to the portability and security of Java? ',
+    '3. Which of the following option leads to the portability and security of Java? ',
     [
       'Bytecode is executed by JVM',
       'The applet makes the Java code secure and portable',
